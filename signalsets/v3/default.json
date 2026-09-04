@@ -87,6 +87,17 @@
             "max": 1,
             "unit": "noyes"
           }
+        },
+        {
+          "id": "KIA_PROBE_BC03_56",
+          "name": "PROBE: BC03 bit 56",
+          "path": "Control",
+          "fmt": {
+            "bix": 56,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
         }
       ]
     },
@@ -162,6 +173,39 @@
           "path": "Seatbelts",
           "fmt": {
             "bix": 54,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_PROBE_BC04_38",
+          "name": "PROBE: parking brake? (BC04 bit 38)",
+          "path": "Control",
+          "fmt": {
+            "bix": 38,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_PROBE_BC04_41",
+          "name": "PROBE: BC04 bit 41",
+          "path": "Control",
+          "fmt": {
+            "bix": 41,
+            "len": 1,
+            "max": 1,
+            "unit": "noyes"
+          }
+        },
+        {
+          "id": "KIA_PROBE_BC04_43",
+          "name": "PROBE: BC04 bit 43",
+          "path": "Control",
+          "fmt": {
+            "bix": 43,
             "len": 1,
             "max": 1,
             "unit": "noyes"
